@@ -1,0 +1,31 @@
+.nav-link {
+  text-decoration: none;
+  color: #10559a;
+}
+
+.regular {
+  font-family: "Open Sans", sans-serif;
+  color: #10559a;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: #db4c77;
+}
+
+#nav-icon {
+  font-family: "Dancing Script", cursive;
+  font-size: 400%;
+  text-decoration: none;
+  color: #10559a;
+}
+
+.nav-item {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* .navbar-expand-lg.navbar-light {
+  background-color: #e3f2fd;
+} */
