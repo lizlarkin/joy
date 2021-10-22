@@ -18,6 +18,9 @@ import joyyoungamy from "./img/joyyoungamy.jpeg";
 import karen1 from "./img/Karen-Davidson-2.JPG";
 import karen2 from "./img/Karen-Davidson-3.JPG";
 import karen3 from "./img/Karen-Davidson-6.JPG";
+import karen4 from "./img/Karen-Davidson-1.JPG";
+import karen5 from "./img/Karen-Davidson-4.jpg";
+import karen6 from "./img/Karen-Davidson-5.JPG";
 
 
 const Gallery = () => {
@@ -118,6 +121,20 @@ const Gallery = () => {
             </div>
             <div className="col-md-3">
                 <img src={karen3} class="img-thumbnail rounded mx-auto d-block" alt="Joy and girlfriends 3"/>
+            </div>
+            <div className="col-md-1"></div>
+        </div>
+
+        <div className="row" style={galleryStyles.rowSpace}>
+            <div className="col-md-1"></div>
+            <div className="col-md-3">
+                <img src={karen4} class="img-thumbnail rounded mx-auto d-block" alt="Joy and girlfriends 4"/>
+            </div>
+            <div className="col-md-3">    
+                <img src={karen5} class="img-thumbnail rounded mx-auto d-block" alt="Joy and girlfriends 5"/>
+            </div>
+            <div className="col-md-3">
+                <img src={karen6} class="img-thumbnail rounded mx-auto d-block" alt="Joy and girlfriends 6"/>
             </div>
             <div className="col-md-1"></div>
         </div>
