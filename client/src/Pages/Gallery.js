@@ -24,6 +24,9 @@ import karen6 from "./img/Karen-Davidson-5.JPG";
 import fayth1 from "./img/Fayth-2.JPG";
 import fayth2 from "./img/Fayth-3.jpg";
 import fayth3 from "./img/Fayth-4.JPG";
+import donna1 from "./img/Donna-Nibbelink-1.jpg";
+import donna2 from "./img/Donna-Nibbelink-2.jpg";
+import donna3 from "./img/Donna-Nibbelink-3.JPG";
 
 
 const Gallery = () => {
@@ -152,6 +155,20 @@ const Gallery = () => {
             </div>
             <div className="col-md-3">
                 <img src={karen6} class="img-thumbnail rounded mx-auto d-block" alt="Joy and girlfriends 6"/>
+            </div>
+            <div className="col-md-1"></div>
+        </div>
+
+        <div className="row" style={galleryStyles.rowSpace}>
+            <div className="col-md-1"></div>
+            <div className="col-md-3">
+                <img src={donna1} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Donna 1"/>
+            </div>
+            <div className="col-md-3">    
+                <img src={donna2} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Donna 2"/>
+            </div>
+            <div className="col-md-3">
+                <img src={donna3} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Donna 3"/>
             </div>
             <div className="col-md-1"></div>
         </div>
