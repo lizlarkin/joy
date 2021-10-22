@@ -24,7 +24,7 @@ import karen6 from "./img/Karen-Davidson-5.JPG";
 import fayth1 from "./img/Fayth-2.JPG";
 import fayth2 from "./img/Fayth-3.jpg";
 import fayth3 from "./img/Fayth-4.JPG";
-import donna1 from "./img/Donna-Nibbelink-1.jpg";
+import donna1 from "./img/Donna-Nibbelink-1.JPG";
 import donna2 from "./img/Donna-Nibbelink-2.jpg";
 import donna3 from "./img/Donna-Nibbelink-3.JPG";
 
