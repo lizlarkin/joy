@@ -24,9 +24,22 @@ import karen6 from "./img/Karen-Davidson-5.JPG";
 import fayth1 from "./img/Fayth-2.JPG";
 import fayth2 from "./img/Fayth-3.jpg";
 import fayth3 from "./img/Fayth-4.JPG";
+import fayth4 from "./img/Fayth-1.jpg";
+import fayth5 from "./img/Fayth-5.jpg";
+import fayth6 from "./img/Fayth-6.jpg";
+import fayth7 from "./img/Fayth-7.JPG";
+import fayth8 from "./img/Fayth-8.jpg";
 import donna1 from "./img/Donna-Nibbelink-1.JPG";
 import donna2 from "./img/Donna-Nibbelink-2.jpg";
 import donna3 from "./img/Donna-Nibbelink-3.JPG";
+import vicki1 from "./img/Vicki-Humphreys-1.JPG";
+import vicki2 from "./img/Vicki-Humphreys-2.JPG";
+import vicki3 from "./img/Vicki-Humphreys-4.JPG";
+import michealle from "./img/Michealle-Hoag-1.jpg";
+import barbara from "./img/Barbara-Bach-1.jpg";
+import kathy1 from "./img/Kathy-Gerhold-1.jpg";
+import kathy2 from "./img/Kathy-Gerhold-2.jpg";
+import kathy3 from "./img/Kathy-Gerhold-3.jpg";
 
 
 const Gallery = () => {
@@ -52,10 +65,52 @@ const Gallery = () => {
                 <img src={fayth1} class="img-thumbnail rounded mx-auto d-block" alt="McConnell family 1"/>
             </div>
             <div className="col-md-3">
-                <img src={fayth3} class="img-thumbnail rounded mx-auto d-block" alt="McConnell family 2"/>
+                <img src={fayth5} class="img-thumbnail rounded mx-auto d-block" alt="Joy Sherri and Fayth"/>
             </div>
             <div className="col-md-3">
                 <img src={fayth2} class="img-thumbnail rounded mx-auto d-block" alt="McConnell family 3"/>
+            </div>
+            <div className="col-md-1"></div>
+        </div>
+
+        <div className="row" style={galleryStyles.rowSpace}>
+            <div className="col-md-1"></div>
+            <div className="col-md-3">
+                <img src={fayth4} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Sherri"/>
+            </div>
+            <div className="col-md-3">
+                <img src={barbara} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Ez"/>
+            </div>
+            <div className="col-md-3">
+                <img src={fayth6} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Bill"/>
+            </div>
+            <div className="col-md-1"></div>
+        </div>
+
+        <div className="row" style={galleryStyles.rowSpace}>
+            <div className="col-md-1"></div>
+            <div className="col-md-3">
+                <img src={fayth7} class="img-thumbnail rounded mx-auto d-block" alt="Joy Fayth and Bill"/>
+            </div>
+            <div className="col-md-3">
+                <img src={fayth8} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Fayth"/>
+            </div>
+            <div className="col-md-3">
+                <img src={fayth3} class="img-thumbnail rounded mx-auto d-block" alt="McConnell family 2"/>
+            </div>
+            <div className="col-md-1"></div>
+        </div>
+
+        <div className="row" style={galleryStyles.rowSpace}>
+            <div className="col-md-1"></div>
+            <div className="col-md-3">
+                <img src={kathy1} class="img-thumbnail rounded mx-auto d-block" alt="Jim, horse, Young Joy"/>
+            </div>
+            <div className="col-md-3">
+                <img src={kathy3} class="img-thumbnail rounded mx-auto d-block" alt="McConnell Family in Lancaster"/>
+            </div>
+            <div className="col-md-3">
+                <img src={kathy2} class="img-thumbnail rounded mx-auto d-block" alt="young McConnell family"/>
             </div>
             <div className="col-md-1"></div>
         </div>
@@ -173,6 +228,33 @@ const Gallery = () => {
             <div className="col-md-1"></div>
         </div>
 
+        <div className="row" style={galleryStyles.rowSpace}>
+            <div className="col-md-1"></div>
+            <div className="col-md-3">
+                <img src={vicki1} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Vicki 1"/>
+            </div>
+            <div className="col-md-3">    
+                <img src={vicki2} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Vicki 2"/>
+            </div>
+            <div className="col-md-3">
+                <img src={vicki3} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Vicki 3"/>
+            </div>
+            <div className="col-md-1"></div>
+        </div>
+
+        <div className="row" style={galleryStyles.rowSpace}>
+            <div className="col-md-1"></div>
+            <div className="col-md-3">
+            <img src={michealle} class="img-thumbnail rounded mx-auto d-block" alt="Joy Del and Hoags"/>
+            </div>
+            <div className="col-md-3">    
+                {/* <img src={vicki2} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Vicki 2"/> */}
+            </div>
+            <div className="col-md-3">
+                {/* <img src={vicki3} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Vicki 3"/> */}
+            </div>
+            <div className="col-md-1"></div>
+        </div>
 
         </div>
     )
