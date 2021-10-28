@@ -1,5 +1,5 @@
 import React from 'react';
-import envelope from "./img/envelope.png";
+import envelope2 from "./img/envelope2.png";
 
 const Donate = () => {
 
@@ -26,7 +26,7 @@ const Donate = () => {
                 <div className="col-md-4"></div>
 
                 <div className="col-md-4">
-                        <img src={envelope} className="card-img-top" alt="envelope"/>
+                        <img src={envelope2} className="card-img-top" alt="envelope"/>
                 </div>
 
                 <div className="col-md-4"></div>

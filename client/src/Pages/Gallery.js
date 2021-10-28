@@ -37,6 +37,9 @@ import vicki2 from "./img/Vicki-Humphreys-2.JPG";
 import vicki3 from "./img/Vicki-Humphreys-4.JPG";
 import michealle from "./img/Michealle-Hoag-1.jpg";
 import barbara from "./img/Barbara-Bach-1.jpg";
+import barbara2 from "./img/Barbara-Bach-2.jpg";
+import barbara3 from "./img/Barbara-Bach-3.jpg";
+import barbara4 from "./img/Barbara-Bach-4.jpg";
 import kathy1 from "./img/Kathy-Gerhold-1.jpg";
 import kathy2 from "./img/Kathy-Gerhold-2.jpg";
 import kathy3 from "./img/Kathy-Gerhold-3.jpg";
@@ -322,6 +325,20 @@ const Gallery = () => {
             </div>
             <div className="col-md-3">
                 <img src={del2} class="img-thumbnail rounded mx-auto d-block" alt="Joy and Del"/>
+            </div>
+            <div className="col-md-1"></div>
+        </div>
+
+        <div className="row" style={galleryStyles.rowSpace}>
+            <div className="col-md-1"></div>
+            <div className="col-md-3">
+                <img src={barbara2} class="img-thumbnail rounded mx-auto d-block" alt="2015 Open Bible Conference 1"/>
+            </div>
+            <div className="col-md-3">    
+                <img src={barbara3} class="img-thumbnail rounded mx-auto d-block" alt="2015 Open Bible Conference 2"/>
+            </div>
+            <div className="col-md-3">
+                <img src={barbara4} class="img-thumbnail rounded mx-auto d-block" alt="2015 Open Bible Conference 3"/>
             </div>
             <div className="col-md-1"></div>
         </div>
