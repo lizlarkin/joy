@@ -57,6 +57,7 @@ import ministry5 from "./img/ministry-5.JPG";
 import ministry6 from "./img/ministry-6.jpg";
 import childhood from "./img/childhood.jpg";
 import weddingday from "./img/weddingday.jpg";
+import delta1 from "./img/Delta-McConnell-1.png"
 
 
 const Gallery = () => {
@@ -339,6 +340,20 @@ const Gallery = () => {
             </div>
             <div className="col-md-3">
                 <img src={barbara4} class="img-thumbnail rounded mx-auto d-block" alt="2015 Open Bible Conference 3"/>
+            </div>
+            <div className="col-md-1"></div>
+        </div>
+
+        <div className="row" style={galleryStyles.rowSpace}>
+            <div className="col-md-1"></div>
+            <div className="col-md-3">
+                <img src={delta1} class="img-thumbnail rounded mx-auto d-block" alt="Delta McConnell"/>
+            </div>
+            <div className="col-md-3">    
+                {/* <img src={barbara3} class="img-thumbnail rounded mx-auto d-block" alt="2015 Open Bible Conference 2"/> */}
+            </div>
+            <div className="col-md-3">
+                {/* <img src={barbara4} class="img-thumbnail rounded mx-auto d-block" alt="2015 Open Bible Conference 3"/> */}
             </div>
             <div className="col-md-1"></div>
         </div>
