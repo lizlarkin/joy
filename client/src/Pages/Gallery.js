@@ -72,6 +72,10 @@ const Gallery = () => {
         rowSpace: {
             marginTop: "2%",
             marginBottom: "2%",
+        },
+        links: {
+            textDecoration: "none",
+
         }
     }
 
@@ -80,6 +84,7 @@ const Gallery = () => {
         <div>
             <h1 className="heading">Gallery</h1>
             <h3 className="subheading">To share photos, please email images to enlarkin@gmail.com</h3> 
+            <h4><a style={galleryStyles.links} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/jim.gerhold/videos/277070864314556/">Memorial Video by Jim Gerhold</a></h4>
         </div>
 
         <div className="row" style={galleryStyles.rowSpace}>
