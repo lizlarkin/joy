@@ -22,8 +22,7 @@ const Memorial = () => {
 
             <div>
                 <h1 className="heading">Memorial</h1>
-                <h3 className="subheading">The memorial can be streamed live using the following link: <a target="_blank" rel="noopener noreferrer" href="https://livestream.com/calvaryopenbible">Memorial Live Stream</a> <br />
-                Select the frame labeled ‘Joy Brown Memorial’. The live stream will begin a few minutes before the service.
+                <h3 className="subheading">A video of the memorial service can be viewed using the following link: <a target="_blank" rel="noopener noreferrer" href="https://livestream.com/calvaryopenbible/events/9935510">Joy Brown Memorial Service</a> <br />
                 </h3> 
             </div>
 
