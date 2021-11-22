@@ -22,11 +22,41 @@ const Memorial = () => {
 
             <div>
                 <h1 className="heading">Memorial</h1>
-                <h3 className="subheading">A video of the memorial service can be viewed using the following link: <a target="_blank" rel="noopener noreferrer" href="https://livestream.com/calvaryopenbible/events/9935510">Joy Brown Memorial Service</a> <br />
-                </h3> 
             </div>
 
-            <div className="row">
+            <div className = "row">
+                <div className="col-md-1"></div>
+                <div className="col-md-3">
+                    <div className="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Memorial Service</h5>
+                            <p class="card-text">Click below link to watch video of Joy Brown's full memorial service at Calvary Open Bible Church.</p>
+                            <a className="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://youtu.be/jF1l2Ldp3h4">Memorial Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Memorial Video by Jim Gerhold</h5>
+                            <p class="card-text">Click below link to watch a video made by Joy's uncle Jim.</p>
+                            <a className="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/jim.gerhold/videos/277070864314556/">Memorial Slideshow</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Memorial Service Slideshow</h5>
+                            <p class="card-text">Click below link to watch the slideshow from Joy's memorial service.</p>
+                            <a className="btn btn-primary"target="_blank" rel="noopener noreferrer" href="https://youtu.be/Kk-9aYZJQgY">YouTube Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* <div className="row">
                 <div className="col-md-4"></div>
                 <div className="col-md-4">
                     <div className="card">
@@ -72,7 +102,7 @@ const Memorial = () => {
                     </div>
                 </div>
                 <div className="col-md-1"></div>
-            </div>
+            </div> */}
 
         </div>
     )
